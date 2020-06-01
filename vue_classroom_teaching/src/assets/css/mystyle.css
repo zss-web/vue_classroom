@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  ul, dl {
+    list-style: none;
+}
+.j_top > h2,
+p {
+  float: left;
+}
+.j_top p {
+  margin: 10px 0 0 16px;
+}
+.j_top{
+  margin-bottom: 10px;
+}
+.card_img>img{
+  width: 100%;
+  height: auto;
+   transition: all 0.3s ease;
+}
+.card a:hover {
+  color: #46bd01;
+}
+.card_img:hover img {
+  transform: scale(1.1, 1.1);
+}
